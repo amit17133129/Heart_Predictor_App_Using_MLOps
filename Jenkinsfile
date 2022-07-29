@@ -3,7 +3,7 @@ pipeline {
       stages {
           stage('BuildingHeartPrectionPod'){
                 steps {
-                    sh 'hi from developer1 branch in multi branch pipeline'
+                    sh 'echo "hi from developer1 branch in multi branch pipeline"'
                     // sh 'sudo kubectl expose deployment mlopsheartpred --type=NodePort  --port=4444   --kubeconfig /root/admin.conf'
                     // sh 'sudo kubectl get pod -o wide   --kubeconfig /root/admin.conf'
                     
