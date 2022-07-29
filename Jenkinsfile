@@ -16,7 +16,7 @@ pipeline {
                 
         }
         //  stage('gettingpod'){ 
-        //        steps {
+        //        steps { 
         //               sh 'sudo kubectl get pod -o wide  --kubeconfig /root/admin.conf'
         //               sh 'sudo kubectl get svc    --kubeconfig /root/admin.conf'
         //      }
