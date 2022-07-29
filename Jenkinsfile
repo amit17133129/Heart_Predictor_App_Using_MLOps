@@ -4,7 +4,7 @@ pipeline {
           stage('BuildingHeartPrectionPod'){
                when {
                 expression {
-                    return env.GIT_BRANCH == "origin/main"
+                    return env.GIT_BRANCH == "origin/Developer1"
                 }
             }
                 steps {
